@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Scale that SVG!" title="Scale that SVG!" src="logo.svg" width="450">
+  <img alt="Scale that SVG!" title="Scale that SVG!" src="https://cdn.rawgit.com/elrumordelaluz/scale-that-svg/880c705b/logo.svg" width="450">
 </p>
 
 <p align="center">
