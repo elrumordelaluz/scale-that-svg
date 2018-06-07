@@ -14,8 +14,6 @@ yarn add scale-that-svg
 
 ## Usage
 
-`String|Buffer` svg
-
 ```js
 const scale = require('sclae-that-svg')
 
@@ -38,8 +36,41 @@ scale(`<svg viewBox="0 0 500 200">
 </svg>`).then(scaledFromString => console.log({ scaledFromString }))
 ```
 
+## API
+
+### scale(input,[options])
+
+#### input
+
+Type: `string|buffer`
+SVG to scale
+
+#### options
+
+Type: `Object`
+Based on [svg-path-tool scale](https://github.com/elrumordelaluz/path-utils/blob/master/src/scale.js)
+
+##### scale
+
+Type: `number`<br>
+Default: 1 (no scale)
+
+##### scaleY
+
+Type: `number`<br>
+If no specified, same as `scale`
+
+##### round
+
+Type: `number`<br>
+Default: 3
+
 ## Related
 
 [element-to-path](https://github.com/elrumordelaluz/element-to-path) Convert SVG element into `path`
 
 [path-that-svg](https://github.com/elrumordelaluz/path-that-svg) Convert entire SVG with `path`
+
+[svg-path-tools](https://github.com/elrumordelaluz/svg-path-tools) Tools to manipulate SVG `path` (d)
+
+[svgson](https://github.com/elrumordelaluz/svgson-next) Transform SVG into `Object`
