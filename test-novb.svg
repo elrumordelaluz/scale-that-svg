@@ -1,0 +1,12 @@
+<svg id="c08db49a-d184-41a6-8d84-eafb852e2953" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+  <title>social</title>
+  <circle id="58ba4f06-f6d9-4b3f-99c5-75bf28691f91" data-name="layer2" cx="48" cy="48" r="14" fill="#78d1f4"/>
+  <path id="be7db1e5-d842-458c-902e-e2d1c4688937" data-name="opacity" d="M51,59A14,14,0,0,1,39.7,36.7,14,14,0,1,0,59.3,56.3,13.9,13.9,0,0,1,51,59Z" fill="#000064" opacity="0.15"/>
+  <path id="625ff661-3c5e-4701-b329-093137453489" data-name="layer1" d="M35.9,41h0c-3.3-1-3.9-2.9-3.9-4V35a14.1,14.1,0,0,0,4-7c2.5,0,4-3,4-6,0-.8,0-4-2-4C43,3.5,28.4-2,18,5c-4.4,0-5.6,6.6-4,13-2,0-2,3.2-2,4,0,3,1.5,6,4,6h0a13.6,13.6,0,0,0,4,7v2c0,1.6-.5,3.6-8.6,5.2S2,51,2,51H34.3a13.9,13.9,0,0,1,1.6-10Z" fill="#a5d0ec"/>
+  <path id="5b3a579e-c362-4d63-8626-e5c6f132b760" data-name="opacity" d="M34.3,51a13.9,13.9,0,0,1,1.6-10h0l-.5-.2c-4.5,1.6-6,5.4-7,10.2h6Z" fill="#000064" opacity="0.15"/>
+  <path id="f650736a-4f78-4985-9e78-7abd1d543a3c" data-name="opacity" d="M20,28h0c.8,3,4.1,5.3,6,7v2c0,1.6-.5,3.6-8.6,5.2S8,51,8,51H2s0-7,9.4-8.8S20,38.6,20,37V35a13.6,13.6,0,0,1-4-7h0c-2.5,0-4-3-4-6,0-.8,0-4,2-4-1.6-6.4-.4-13,4-13A16.7,16.7,0,0,1,30.5,2.3,17.8,17.8,0,0,0,24,5c-4.4,0-7.6,6.6-6,13C18,18,18,26,20,28Z" fill="#000064" opacity="0.15"/>
+  <path id="43c3ff6b-7b3b-41a5-a498-a596a462f5ad" data-name="stroke" d="M35.9,41c-3.3-1-3.9-2.9-3.9-4V35a14.1,14.1,0,0,0,4-7h0c2.5,0,4-3,4-6,0-.8,0-4-2-4C43,3.5,28.4-2,18,5c-4.4,0-5.6,6.6-4,13-2,0-2,3.2-2,4,0,3,1.5,6,4,6h0a14.2,14.2,0,0,0,4,7v2c0,1.6-.5,3.6-8.6,5.2S2,51,2,51H34.3" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle id="a05eb553-296d-481e-8bdd-43baf8e87734" data-name="stroke" cx="48" cy="48" r="14" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="0d4cc556-efc4-4c63-a3cf-9dea104883bc" data-name="stroke" x1="42" y1="48" x2="54" y2="48" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="c87275c9-1360-459a-a821-de9c8d8bf728" data-name="stroke" x1="48" y1="54" x2="48" y2="42" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

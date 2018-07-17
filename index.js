@@ -6,7 +6,7 @@ const scalePath = (node, scaleOptions) => {
   let o = Object.assign({}, node)
   const { scale: s } = scaleOptions || { scale: 1 }
 
-  if (o.name === 'svg') {
+  if (o.name === 'svg' && o.attributes.viewBox) {
     o.attributes = Object.assign({}, o.attributes, {
       viewBox: o.attributes.viewBox
         .split(' ')

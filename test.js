@@ -22,3 +22,14 @@ test('Scale that SVG!', async t => {
   )
   t.is(scaled, expected.toString())
 })
+
+test('works when no viewBox present', async t => {
+  const scale = 0.5
+  const input = await readFileAsync('./test-novb.svg')
+  const expected = await readFileAsync('./scaled.svg')
+  const scaled = await scaleThatSvg(input, { scale })
+  const _scaled = await svgson(scaled)
+  const _expected = await svgson(expected.toString())
+  delete _expected.attributes.viewBox
+  t.deepEqual(_scaled, _expected)
+})
