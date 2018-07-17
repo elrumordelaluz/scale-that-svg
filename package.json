@@ -1,6 +1,6 @@
 {
   "name": "scale-that-svg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/scale-that-svg.cjs.js",
   "module": "dist/scale-that-svg.esm.js",
   "browser": "dist/scale-that-svg.umd.js",
