@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "element-to-path": "1.2.0",
-    "fast-copy": "1.2.1",
     "svg-path-tools": "1.0.0",
     "svgson-next": "4.0.0"
   },

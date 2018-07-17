@@ -1,10 +1,9 @@
 import svgson, { stringify } from 'svgson-next'
-import copy from 'fast-copy'
 import { parse, stringify as pathStringify, scale } from 'svg-path-tools'
 import toPath from 'element-to-path'
 
 const scalePath = (node, scaleOptions) => {
-  let o = copy(node)
+  let o = Object.assign({}, node)
   const { scale: s } = scaleOptions || { scale: 1 }
 
   if (o.name === 'svg') {
