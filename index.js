@@ -42,8 +42,7 @@ const scalePath = (node, scaleOptions) => {
 }
 
 export default async (svg, scaleOptions) => {
-  const input = Buffer.isBuffer(svg) ? svg.toString() : svg
-  const parsed = await svgson(input)
+  const parsed = await svgson(svg)
   const scaled = scalePath(parsed, scaleOptions)
   return stringify(scaled)
 }
