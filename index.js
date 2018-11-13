@@ -1,4 +1,4 @@
-import svgson, { stringify } from 'svgson-next'
+import svgson, { stringify } from 'svgson'
 import { parse, stringify as pathStringify, scale } from 'svg-path-tools'
 import toPath from 'element-to-path'
 
