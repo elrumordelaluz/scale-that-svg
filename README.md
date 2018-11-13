@@ -73,7 +73,7 @@ Default: 3
 
 [svg-path-tools](https://github.com/elrumordelaluz/svg-path-tools) Tools to manipulate SVG `path` (d)
 
-[svgson](https://github.com/elrumordelaluz/svgson-next) Transform SVG into `Object`
+[svgson](https://github.com/elrumordelaluz/svgson) Transform SVG into `Object`
 
 ## License
 
