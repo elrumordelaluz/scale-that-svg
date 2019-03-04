@@ -15,7 +15,7 @@ yarn add scale-that-svg
 ## Usage
 
 ```js
-const scale = require('sclae-that-svg')
+const scale = require('scale-that-svg')
 
 fs.readFile('./test.svg', (err, input) => {
   scale(input, { scale: 0.5 }).then(scaled => {
