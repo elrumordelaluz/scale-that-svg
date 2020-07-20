@@ -15,25 +15,25 @@ yarn add scale-that-svg
 ## Usage
 
 ```js
-const scale = require('scale-that-svg')
+const { scale } = require('scale-that-svg')
 
 fs.readFile('./test.svg', (err, input) => {
-  scale(input, { scale: 0.5 }).then(scaled => {
+  scale(input, { scale: 0.5 }).then((scaled) => {
     console.log({ scaled })
   })
 })
 
 scale(`<svg viewBox="0 0 500 200">
-  <rect 
-    x="200" 
-    y="50" 
-    fill="#F16362" 
-    stroke="#30456B" 
-    stroke-width="5" 
-    stroke-linecap="round" 
-    stroke-linejoin="round" 
+  <rect
+    x="200"
+    y="50"
+    fill="#F16362"
+    stroke="#30456B"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
     width="100" height="100"/>
-</svg>`).then(scaledFromString => console.log({ scaledFromString }))
+</svg>`).then((scaledFromString) => console.log({ scaledFromString }))
 ```
 
 ## API

@@ -1,6 +1,9 @@
 import scaleThatSvg from './index'
 
-export default async (input, scaleOptions) => {
+async function scale(input, scaleOptions) {
   const svg = Buffer.isBuffer(input) ? input.toString() : input
   return await scaleThatSvg(svg, scaleOptions)
 }
+
+export default scale
+export { scale }

@@ -5,7 +5,7 @@ import svgson from 'svgson'
 const readFileAsync = promisify(fs.readFile)
 import scaleThatSvg from './dist/scale-that-svg.cjs'
 
-test('Scale that SVG!', async t => {
+test('Scale that SVG!', async (t) => {
   const scale = 0.5
   const input = await readFileAsync('./test.svg')
   const expected = await readFileAsync('./scaled.svg')
@@ -23,7 +23,7 @@ test('Scale that SVG!', async t => {
   t.is(scaled, expected.toString())
 })
 
-test('works when no viewBox present', async t => {
+test('works when no viewBox present', async (t) => {
   const scale = 0.5
   const input = await readFileAsync('./test-novb.svg')
   const expected = await readFileAsync('./scaled.svg')
