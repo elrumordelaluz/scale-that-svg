@@ -12,6 +12,8 @@ const scalePath = (node, scaleOptions) => {
         .split(' ')
         .map((v, i) => (i > 1 ? v * s : v))
         .join(' '),
+      ...(o.attributes.width ? { width: o.attributes.width * s } : {}),
+      ...(o.attributes.height ? { height: o.attributes.height * s } : {}),
     })
   }
 
@@ -33,7 +35,7 @@ const scalePath = (node, scaleOptions) => {
     }
     o.name = 'path'
   } else if (o.children && Array.isArray(o.children)) {
-    const _scale = c => scalePath(c, scaleOptions)
+    const _scale = (c) => scalePath(c, scaleOptions)
     o.children = o.children.map(_scale)
   }
 
