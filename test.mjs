@@ -1,9 +1,9 @@
 import fs from 'fs'
 import { promisify } from 'util'
 import test from 'ava'
-import svgson from 'svgson'
+import { parse as svgson } from 'svgson'
 const readFileAsync = promisify(fs.readFile)
-import scaleThatSvg from './dist/scale-that-svg.cjs'
+import { scale as scaleThatSvg } from './dist/scale-that-svg.cjs.js'
 
 test('Scale that SVG!', async (t) => {
   const scale = 0.5

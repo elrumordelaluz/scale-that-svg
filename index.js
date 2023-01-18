@@ -1,4 +1,4 @@
-import svgson, { stringify } from 'svgson'
+import { parse as svgson, stringify } from 'svgson'
 import { parse, stringify as pathStringify, scale } from 'svg-path-tools'
 import toPath from 'element-to-path'
 
@@ -6,14 +6,14 @@ const scalePath = (node, scaleOptions) => {
   let o = Object.assign({}, node)
   const { scale: s } = scaleOptions || { scale: 1 }
 
-  const sY = scaleOptions.scaleY || s;
+  const sY = scaleOptions.scaleY || s
 
   if (o.name === 'svg' && o.attributes.viewBox) {
     o.attributes = Object.assign({}, o.attributes, {
       viewBox: o.attributes.viewBox
-          .split(' ')
-          .map((v, i) => (i === 2 ? v * s : i === 3 ? v * sY : v))
-          .join(' '),
+        .split(' ')
+        .map((v, i) => (i === 2 ? v * s : i === 3 ? v * sY : v))
+        .join(' '),
       ...(o.attributes.width ? { width: o.attributes.width * s } : {}),
       ...(o.attributes.height ? { height: o.attributes.height * sY } : {}),
     })
